@@ -7,9 +7,12 @@ import {
 } from 'react-router-dom'
 import Cart from './Components/Cart'
 import { productsData } from './Api/Api'
+import { ToastContainer} from 'react-toastify';
 
+  import 'react-toastify/dist/ReactToastify.css';
 import Products from './Components/Products'
 import Login from './Pages/Login'
+
 
 
 
@@ -58,6 +61,7 @@ const App = () => {
   return (
     <div className='font-bodyFont'>
       <RouterProvider router={router}/>
+      <ToastContainer/>
     </div>
   )
 }
