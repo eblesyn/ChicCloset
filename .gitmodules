@@ -1,0 +1,3 @@
+[submodule "ChicCloset"]
+	path = ChicCloset
+	url = https://github.com/username/ChicCloset.git
